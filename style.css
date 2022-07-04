@@ -1,0 +1,73 @@
+h1{
+    color: blue;
+    margin-inline-end: 45px;
+    padding: 10px; 
+}
+
+.header{
+  background-color: rgb(234, 254, 14);
+  display: flex;
+  justify-content:space-between;
+  border:rgb(230, 162, 13) 2px solid;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.item1{
+    background-color: rgb(229, 165, 178);
+    color:red;
+    margin-top: 25px;
+    padding:15px;
+    justify-content: center;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.color{
+    display: flex;
+    flex-wrap: wrap;
+    color:#692607;
+    justify-content: space-around;
+    background-color:#00ffff;
+}
+
+a:link{
+    color:#ff0000;
+}
+
+a:visited{
+    color:#25e40c;
+}
+
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.item1 p{
+    position:absolute;
+    top:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0.33;
+    justify-content:space-evenly;
+    
+}
+
+.item1:hover p{
+    opacity:1;
+}
+
+.item1 a:link p {
+    
+}
+
+
